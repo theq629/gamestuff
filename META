@@ -1,0 +1,7 @@
+description = "Game stuff"
+version = "dev"
+requires = "ocamlbuild"
+archive(byte) = "gamestuff.cma"
+archive(byte, plugin) = "gamestuff.cma"
+archive(native) = "gamestuff.cmxa"
+archive(native, plugin) = "gamestuff.cmxs"
