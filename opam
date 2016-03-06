@@ -14,4 +14,4 @@ install: [
 	[make "install" "PREFIX=%{prefix}%"]
 ]
 remove: ["ocamlfind" "remove" "project"]
-depends: ["ocamlfind"]
+depends: ["ocamlfind" "containers"]
