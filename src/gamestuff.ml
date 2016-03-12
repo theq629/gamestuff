@@ -5,5 +5,6 @@ module Xorshift = Xorshift
 module Simplex_noise = Simplex_noise
 module Graph_search = Graph_search
 module Tilemap = Tilemap
+module Tilemap_graph_search = Tilemap_graph_search
 module Pbm = Pbm
 module Retry = Retry

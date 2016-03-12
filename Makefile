@@ -1,7 +1,7 @@
 NAME=gamestuff
 OCAMLBUILDOPTS=-use-ocamlfind -cflag -g -pkg containers
 OCAMLBUILD=ocamlbuild $(OCAMLBUILDOPTS) -I src
-LIBS=gamestuff args vectors variates xorshift simplex_noise graph_search tilemap pbm retry
+LIBS=gamestuff args vectors variates xorshift simplex_noise graph_search tilemap tilemap_graph_search pbm retry
 PROGS=simplex_demo
 
 PROGFILES=$(addsuffix .native, $(PROGS))
